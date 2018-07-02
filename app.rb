@@ -13,6 +13,7 @@ class App < Sinatra::Base
   end
 
   post '/NEW' do
+    params.to_s
   end
 
 end
